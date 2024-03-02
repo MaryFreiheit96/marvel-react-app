@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    // Aquí puedes agregar o modificar reglas según tus preferencias
+    "react/prop-types": 0, // Desactiva la comprobación de propTypes si no los estás utilizando
+    "react/react-in-jsx-scope": 0, // Desactiva esta regla si estás utilizando React 17 o superior
+    "no-unused-vars": "off",
+    "no-undef": "off" // Deshabilita la regla no-undef
+  }
+}
