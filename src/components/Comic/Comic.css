@@ -1,0 +1,21 @@
+.comic-image {
+  width: 179px;
+  height: 268.8px;
+}
+
+.comic-container {
+  margin-bottom: 24px;
+}
+
+.comic-title {
+  font-size: 16px;
+  font-weight: 550;
+  min-height: 40px;
+  width: 179px;
+}
+
+.comic-year {
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 400;
+}
